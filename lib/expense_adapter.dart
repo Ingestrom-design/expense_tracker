@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
 import 'package:expense_tracker/models/expense.dart';
-
 part 'expense_adapter.g.dart';
 
 @HiveType(typeId: 0)
