@@ -10,6 +10,11 @@ var kDarkColorScheme = ColorScheme.fromSeed(
     seedColor: const Color.fromARGB(255, 45, 125, 5));
 
 Future<void> main() async {
+  //WidgetsFlutterBinding.ensureInitialized();
+  //SystemChrome.setPreferredOrientation([
+  //  DeviceOrientation.portraitUp,
+  //  ]).then(fn){
+
   // Initialize Hive
   await Hive.initFlutter();
 
